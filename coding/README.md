@@ -1,20 +1,7 @@
 # WEIRDO Coding Guidelines
 
-A coding styleguide (note, not a visual styleguide) is a valuable tool for teams who
+A good styleguide, when well followed, will set the standard for code quality across a codebase, promote consistency across codebases, give people a feeling of familiarity across codebases & increasing productivity.
 
-build and maintain products for a reasonable length of time;
-have developers of differing abilities and specialisms;
-have a number of different developers working on a product at any given time;
-on-board new staff regularly;
-have a number of codebases that developers dip in and out of.
-Whilst styleguides are typically more suited to product teams—large codebases on long-lived and evolving projects, with multiple developers contributing over prolonged periods of time—all developers should strive for a degree of standardisation in their code.
-
-A good styleguide, when well followed, will
-
-set the standard for code quality across a codebase;
-promote consistency across codebases;
-give developers a feeling of familiarity across codebases;
-increase productivity.
 Styleguides should be learned, understood, and implemented at all times on a project which is governed by one, and any deviation must be fully justified.
 
 ## General guidelines
@@ -30,7 +17,14 @@ Styleguides should be learned, understood, and implemented at all times on a pro
 
 ## Protocol & workflows
 - [Designer & developer collaboration](/collab)
-- Git
+- [Git](/git)
+
+## To be done
+
+- Trello/GitHub workflow
+- Software Engineering principles
+- PHP guidelines
+- JS guidelines
 
 ## Credits
 
