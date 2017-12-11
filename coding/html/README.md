@@ -2,8 +2,8 @@
 
 ## General formatting
 
-- Paragraphs of text should always be placed in a <p> tag. Never use multiple <br> tags.
-- Items in list form should always be in <ul>, <ol>, or <dl>. Never use a set of <div> or <p>.
+- Paragraphs of text should always be placed in a `<p>` tag. Never use multiple `<br>` tags.
+- Items in list form should always be in `<ul>`, `<ol>`, or `<dl>`. Never use a set of `<div>` or `<p>`.
 - Every form input that has text attached should utilize a <label> tag. Don't replace <label> with just a placeholder. [Here's how to do it](https://a11yproject.com/posts/placeholder-input-elements/).
 
 ## Layout

@@ -25,7 +25,7 @@ The title of the section is prefixed with a hash (#) symbol to allow us to perfo
 - properties and values on the same line
 - a space after our property–value delimiting colon (`:`)
 - each declaration on its own new line
-- the opening brace ({) on the same line as our last selector
+- the opening brace (`{`) on the same line as our last selector
 - our first declaration on a new line after our opening brace (`{`)
 - our closing brace (`}`) on its own new line
 - each declaration indented by two (2) spaces
@@ -145,7 +145,7 @@ But what if that person is handsome, and we want to style their face because of 
 A naming convention tells us how classes within a component relate to one another, but a namespace will tell us exactly how classes behave in a more global sense. A namespace tells us exactly what a class (or suite of classes) does in non-relative terms:
 
 - **o-:** Signify that something is an Object, and that it may be used in any number of unrelated contexts to the one you can currently see it in. Making modifications to these types of class could potentially have knock-on effects in a lot of other unrelated places. Tread carefully.
-- ****c-:** Signify that something is a Component. This is a concrete, implementation-specific piece of UI. All of the changes you make to its styles should be detectable in the context you’re currently looking at. Modifying these styles should be safe and have no side effects.
+- **c-:** Signify that something is a Component. This is a concrete, implementation-specific piece of UI. All of the changes you make to its styles should be detectable in the context you’re currently looking at. Modifying these styles should be safe and have no side effects.
 - **u-:** Signify that this class is a Utility class. It has a very specific role (often providing only one declaration) and should not be bound onto or changed. It can be reused and is not tied to any specific piece of UI. You will probably recognise this namespace from libraries and methodologies like SUIT.
 - **t-:** Signify that a class is responsible for adding a Theme to a view. It lets us know that UI Components’ current cosmetic appearance may be due to the presence of a theme.
 - **s-:** Signify that a class creates a new styling context or Scope. Similar to a Theme, but not necessarily cosmetic, these should be used sparingly—they can be open to abuse and lead to poor CSS if not used wisely.
