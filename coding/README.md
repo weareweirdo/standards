@@ -12,12 +12,12 @@ Styleguides should be learned, understood, and implemented at all times on a pro
 - Delete your [trailing whitespace](http://programmers.stackexchange.com/questions/121555/why-is-trailing-whitespace-a-big-deal).
 
 ## Language-specific guidelines
-- [CSS](/css)
-- [HTML](/html)
+- [CSS](/coding/css)
+- [HTML](/coding/html)
 
 ## Protocol & workflows
-- [Designer & developer collaboration](/collab)
-- [Git](/git)
+- [Designer & developer collaboration](/coding/collab)
+- [Git](/coding/git)
 
 ## To be done
 
